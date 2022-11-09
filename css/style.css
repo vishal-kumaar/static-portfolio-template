@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-/* .container {
-} */
-
 nav {
     font-family: sans-serif;
     background-color: #3a3939;
@@ -132,12 +129,12 @@ nav li a {
     font-family: sans-serif;
     text-align: center;
     margin: 12px 12px;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 .introContainer p {
     font-family: monospace;
-    font-size: 15px;
+    font-size: 17px;
     margin: 12px 16px;
 }
 
@@ -216,7 +213,8 @@ nav li a {
     width: 40vw;
     border-radius: 13px;
     margin: 6px 0 0 0;
-    padding: 0px;
+    padding: 2px 10px;
+    font-style: 16px;
     height: 30px;
 }
 
@@ -231,8 +229,7 @@ nav li a {
     height: 14px;
 }
 
-
-/* Blog CSS */
+/* Blogs CSS */
 
 .blogContainer{
     margin: 40px 100px;
@@ -278,4 +275,127 @@ nav li a {
     border: 1px solid;
 }
 
-/* Services CSS - Make it yourself */
+/* Blog CSS */
+
+.blog{
+    margin: 20px 100px;
+}
+
+.blog-title{
+    width: fit-content;
+    margin: auto;
+}
+
+.blog-name{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blog-author{
+    font-size: 20px;
+    margin-top: 7px;
+    text-align: right;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.blog-body{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+/* Services CSS */
+
+.serviceContainer{
+    margin: 20px 50px;
+}
+
+.service-title{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.intro{
+    font-size: 18px;
+    font-family: monospace;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pricing-title{
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.pricing-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px 150px;
+}
+
+.box-title{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.pricing-box{
+    border: solid #191970 2px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service-desc ul{
+    margin-left: 20px;
+}
+
+.service-desc ul li{
+    margin: 10px 0;
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.price{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.choose-btn{
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #191970;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 20px auto 10px auto;
+    display: block;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.choose-btn:hover{
+    background-color: #fff;
+    color: #191970;
+    border: 2px solid #191970;
+}
